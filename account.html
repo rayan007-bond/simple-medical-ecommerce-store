@@ -1,0 +1,137 @@
+<!-- <?php
+session_start(); // Start the session to access session variables
+echo'jkhkjhjk';
+// Check if session variables exist
+if (isset($_SESSION['fname']) && isset($_SESSION['lname']))
+{
+    $fname = $_SESSION['fname'];
+    $lname = $_SESSION['lname'];
+    // Display the user information
+}
+else
+{
+
+}
+?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Pizza Pie</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="account.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="index.html" class="logo">TRA project</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- Dark Mode -->
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- <?php if (isset($_SESSION['fname']) && isset($_SESSION['lname'])): ?>
+                             <?php echo $_SESSION['fname'] . ' ' . $_SESSION['lname']; ?>
+                    <?php endif; ?></a></li> -->
+            <li><a href="addtocart.html"><img src="icons8-add-to-cart-30.png" alt=""></a></li>
+
+<br><br>
+    <div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center">
+<div class="col-xl-6 col-md-12">
+                                                <div class="card user-card-full">
+                                                    <div class="row m-l-0 m-r-0">
+                                                        <div class="col-sm-4 bg-c-lite-green user-profile">
+                                                            <div class="card-block text-center text-white">
+                                                                <div class="m-b-25">
+                                                                    <img src="https://img.icons8.com/bubbles/100/000000/user.png" class="img-radius" alt="User-Profile-Image">
+                                                                </div>
+                                                                <h6 class="f-w-600">Muhammad Rayan</h6>
+                                                                <p>User</p>
+                                                                <i class=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                            <div class="card-block">
+                                                                <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Information</h6>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <p class="m-b-10 f-w-600">Email</p>
+                                                                        <h6 class="text-muted f-w-400">Muhammadrayan192@gmail.com</h6>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <p class="m-b-10 f-w-600">Phone</p>
+                                                                        <h6 class="text-muted f-w-400">0310-2851910</h6>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <p class="m-b-10 f-w-600">Userame</p>
+                                                                        <h6 class="text-muted f-w-400">rayan007</h6>
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600"></h6>
+                                                                
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <p class="m-b-10 f-w-600">About</p>
+                                                                        <h6 class="text-muted f-w-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id velit magni, at voluptate placeat sit quis blanditiis odit vel nisi labore corporis nesciunt eius autem voluptatibus eum fugit deserunt.</h6><br>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <p class="m-b-10 f-w-600">Record</p>
+                                                                        <h6 class="text-muted f-w-400"></h6>
+                                                                    </div>
+                                                                </div>
+                                                                <ul class="social-link list-unstyled m-t-40 m-b-10">
+                                                                    <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="facebook" data-abc="true"><i class="mdi mdi-facebook feather icon-facebook facebook" aria-hidden="true"></i></a></li>
+                                                                    <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="twitter" data-abc="true"><i class="mdi mdi-twitter feather icon-twitter twitter" aria-hidden="true"></i></a></li>
+                                                                    <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="instagram" data-abc="true"><i class="mdi mdi-instagram feather icon-instagram instagram" aria-hidden="true"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             </div>
+                                                </div>
+                                            </div>
+    <!-- Footer -->
+    <section class="contact" id="contact">
+        <!-- Include your footer content here -->
+        <!-- For example: -->
+        <div class="contact-box">
+            <h3> <br>TRA project</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <!-- Include other contact boxes and content as needed -->
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>© Asslone4 All Right Reserved.</p>
+    </div>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JavaScript -->
+    <script src="index.js"></script>
+</body>
+
+</html>
